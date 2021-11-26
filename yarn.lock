@@ -98,17 +98,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.5.1":
-  version: 16.5.1
-  resolution: "react-dom@npm:16.5.1"
+"react-dom@npm:^16.14.0":
+  version: 16.14.0
+  resolution: "react-dom@npm:16.14.0"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
     prop-types: ^15.6.2
-    schedule: ^0.4.0
+    scheduler: ^0.19.1
   peerDependencies:
-    react: ^16.0.0
-  checksum: 98c7490d23a2a21643eb5e534f9970822892faffc32fdf7ccab107b2cbf4872a74a023060e05f688d7e2fceaff511332ff3f1b43c24667b5ee6654c818796100
+    react: ^16.14.0
+  checksum: 5a5c49da0f106b2655a69f96c622c347febcd10532db391c262b26aec225b235357d9da1834103457683482ab1b229af7a50f6927a6b70e53150275e31785544
   languageName: node
   linkType: hard
 
@@ -133,6 +133,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"scheduler@npm:^0.19.1":
+  version: 0.19.1
+  resolution: "scheduler@npm:0.19.1"
+  dependencies:
+    loose-envify: ^1.1.0
+    object-assign: ^4.1.1
+  checksum: 73e185a59e2ff5aa3609f5b9cb97ddd376f89e1610579d29939d952411ca6eb7a24907a4ea4556569dacb931467a1a4a56d94fe809ef713aa76748642cd96a6c
+  languageName: node
+  linkType: hard
+
 "tabbable@npm:^1.0.3":
   version: 1.1.3
   resolution: "tabbable@npm:1.1.3"
@@ -147,6 +157,6 @@ __metadata:
     jquery: ^2.1.2
     react: ^16.5.1
     react-aria-modal: ^2.12.1
-    react-dom: ^16.5.1
+    react-dom: ^16.14.0
   languageName: unknown
   linkType: soft
